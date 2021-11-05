@@ -16,7 +16,6 @@ public class AddExpression extends SymbolExpression {
 
     //处理相加
     //var 仍然是 {a=10,b=20}..
-    //一会我们 debug  源码,就 ok
 
     public int interpreter(HashMap<String, Integer> var) {
         //super.left.interpreter(var) ： 返回 left 表达式对应的值 a = 10
