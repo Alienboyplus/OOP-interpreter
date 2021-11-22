@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.napsta.interpret</OriginalElement>
+  <nodes>
+    <node x="153.5" y="130.0">com.napsta.interpret.SymbolExpression</node>
+    <node x="472.5" y="141.5">com.napsta.interpret.VarExpression</node>
+    <node x="313.0" y="307.0">com.napsta.interpret.SubExpression</node>
+    <node x="347.0" y="432.0">com.napsta.interpret.Calculator</node>
+    <node x="314.5" y="0.0">com.napsta.interpret.Expression</node>
+    <node x="0.0" y="307.0">com.napsta.interpret.AddExpression</node>
+    <node x="0.0" y="432.0">com.napsta.interpret.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.napsta.interpret.AddExpression" target="com.napsta.interpret.SymbolExpression" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="146.5" y="282.0" />
+      <point x="303.0" y="282.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.napsta.interpret.SubExpression" target="com.napsta.interpret.SymbolExpression" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="459.5" y="282.0" />
+      <point x="303.0" y="282.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.napsta.interpret.SymbolExpression" target="com.napsta.interpret.Expression" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="303.0" y="105.0" />
+      <point x="461.0" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.napsta.interpret.VarExpression" target="com.napsta.interpret.Expression" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="619.0" y="105.0" />
+      <point x="461.0" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="383.0" y="279.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

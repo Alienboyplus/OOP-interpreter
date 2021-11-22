@@ -33,7 +33,7 @@ public class Calculator {
                     stack.push(new SubExpression(left, right));
                     break;
                 default:
-                    // 如果是一个 Var 就创建要给 VarExpression 对象，并 push 到 stack
+                    // 如果是一个 Var 就创建 VarExpression 对象，并 push 到 stack
                     stack.push(new VarExpression(String.valueOf(charArray[i])));
 
                     break;
